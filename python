@@ -1,0 +1,32 @@
+import os	
+while True:
+        print("Howdy !! how can i assist you : " ,end='')
+        p=input()
+        if("open" in p) and ("linuxworld" in p):
+          print("----------------Welcome to Linux world---------------")
+          os.system("start FireFox www.linuxworldindia.org")
+        elif(("play" in p) or ("any" in p)) and ("song" in p):
+          print("----------------opening music app---------------------")
+          os.system("Start mswindowsmusic:")
+        elif(("open" in p) and ("minecraft" in p)) and ("game" in p):
+           print("----------------Howdy your game is Ready-------------")
+           os.system("Start minecraft:")
+        elif(("I" in p) and ("wanted" in p)) and ("to" in p):
+           print("-----------------opening weather for you !!!----------")
+           os.system("Start bingweather:")
+        elif(("Hey" in p) or ("Cortana" in p)) and ("my assistant" in p):
+            print("-----------------Here is your assistant Cortana 😀------------")
+            os.system("Start ms-cortana:")
+        elif(("Can" in p) or ("networks" in p)) and ("available" in p):
+            print("-----------------Here comes---------------------------")
+            os.system("Start ms-availablenetworks:")
+        elif(("Can" in p) or ("you" in p)) and ("chat" in p):
+            print("----------------------Here is your messaging app--------------")
+            os.system("Start ms-chat:")
+        elif(("Hey" in p) or ("maps" in p)) and ("launch" in p):
+            print("------------------------Launching maps----------")
+            os.system("Start ms-walk-to:")
+        elif("exit" in p) or ("quit" in p):
+          break
+        else:
+          print("doesn't exist")
